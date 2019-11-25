@@ -28,7 +28,6 @@ EOF
 endif
 endfunction
 
-
 command! JUMPTONEXTP call s:JUMPTONEXTP()
 command! JUMPTOPREVIOUSP call s:JUMPTOPREVIOUSP()
 
