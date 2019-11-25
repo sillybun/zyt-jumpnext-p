@@ -29,5 +29,8 @@ endif
 endfunction
 
 
-command JUMPTONEXTP call s:JUMPTONEXTP()
-command JUMPTOPREVIOUSP call s:JUMPTOPREVIOUSP()
+command! JUMPTONEXTP call s:JUMPTONEXTP()
+command! JUMPTOPREVIOUSP call s:JUMPTOPREVIOUSP()
+
+inoremap <C-L> <C-O>:JUMPTONEXTP<Cr><C-O>a
+inoremap <C-H> <C-O>:JUMPTOPREVIOUSP<Cr><C-o>i
